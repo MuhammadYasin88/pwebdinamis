@@ -45,13 +45,13 @@
                   <p>Inactive Page</p>
                 </a>
                 <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('/Tambah-blog')}}" class="nav-link">
                   <i class="fas fa-bars nav-icon"></i>
-                  <p>Tambah Baru</p>
+                  <p>Tambah Blog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('/data-blog')}}" class="nav-link">
                   <i class="fas fa-database nav-icon"></i>
                   <p>Data Blog</p>
                 </a>
