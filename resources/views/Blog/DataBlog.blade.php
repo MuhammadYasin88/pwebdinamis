@@ -55,8 +55,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <table class="table table-bordered">
                                 
                     <tr>
-                      <th style="width: 10px">nama</th>
-                      <th>Task</th>
+                      <th style="width: 25%">nama</th>
+                      <th colspan = "3">Aksi</th>
                     </tr>
               
                  
@@ -65,7 +65,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <td>{{$isinya}} </td>
                   <td>
                     <a href="{{$isinya}}">
-                        <i class="fas fa-trash-alt"></i>
+                        <i class="fas fa-eye">Lihat</i>
+                    </a>
+                    |
+                    <a href="{{$isinya}}">
+                        <i class="fas fa-edit">Edit</i>
+                    </a>
+                    |
+                    <a href="{{$isinya}}">
+                        <i class="fas fa-trash-alt">Hapus</i>
                     </a>
                   
                   </td>

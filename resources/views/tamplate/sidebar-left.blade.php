@@ -45,10 +45,11 @@
                   <p>Inactive Page</p>
                 </a>
                 <li class="nav-item">
-                <a href="{{url('/Tambah-blog')}}" class="nav-link">
+                
+                  <router-link to = "tambahblog" class="nav-link">
                   <i class="fas fa-bars nav-icon"></i>
                   <p>Tambah Blog</p>
-                </a>
+                </router-link>
               </li>
               <li class="nav-item">
                 <a href="{{url('/data-blog')}}" class="nav-link">

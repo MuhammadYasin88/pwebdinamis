@@ -41,6 +41,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Main content -->
     <div class="content">
     <h3> Halaman Utama </h3>
+    <router-view></router-view>
     </div>
     <!-- /.content -->
   </div>
@@ -56,6 +57,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <!-- jQuery -->
 
-
+@include('tamplate.script')
 </body>
 </html>
