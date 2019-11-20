@@ -41,21 +41,35 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fab fa-blogger-b nav-icon"></i>
+                  <i class="fab fa-blogger-b pink nav-icon"></i>
                   <p>Inactive Page</p>
                 </a>
                 <li class="nav-item">
                 
                   <router-link to = "tambahblog" class="nav-link">
-                  <i class="fas fa-bars nav-icon"></i>
+                  <i class="fas fa-plus green nav-icon"></i>
                   <p>Tambah Blog</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <a href="{{url('/data-blog')}}" class="nav-link">
-                  <i class="fas fa-database nav-icon"></i>
+                  <i class="fas fa-database blue nav-icon"></i>
                   <p>Data Blog</p>
                 </a>
+              </li>
+              <li class="nav-item">
+                
+                  <router-link to = "pengguna" class="nav-link">
+                  <i class="far fa-user red nav-icon"></i>
+                  <p>Pengguna</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                
+                  <router-link to = "kategori" class="nav-link">
+                  <i class="fas fa-border-all teal nav-icon"></i>
+                  <p>Kategori</p>
+                </router-link>
               </li>
             </ul>
           </li>
