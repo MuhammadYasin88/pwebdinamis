@@ -12,10 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('menu');
 });
 
-Route::get('/Tambah-blog', 'BlogController@tambahblog');
+Route::get('menu', function () {
+    return view('menu');
+});
 
+Route::get('masuk', function () {
+    return view('masuk');
+});
+
+Route::get('/tambah-blog', 'BlogController@tambahblog');
 
 Route::get('/data-blog', 'BlogController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -28,12 +28,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Add Blog Page</h1>
+            <h1 class="m-0 text-dark"></h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
-              <li class="breadcrumb-item active">Add Blog</li>
+              <li class="breadcrumb-item"><a href="{{('menu')}}">Home</a></li>
+
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -43,7 +43,10 @@
 
 
     <!-- Main content -->
-    @include('Blog.IsiTambahBlog')
+    <div class="content">
+      <router-view></router-view>
+      <!-- ISI HALAMAN -->
+    </div>
 
     <!-- /.content -->
   </div>
